@@ -3,8 +3,8 @@
 Programa que recibe la longitud de tres segmentos y determine si se puede formar un triángulo con ellos.
 
 ### Teorema de la desigualdad del triangulo
-- Si tienes tres segmentos de longitud a, b y c, entonces puedes formar un triángulo con ellos si y solo si se cumple la siguiente desigualdad:
-$$a + b > c & b + c > a & c + a > b$$
+- Si tienes tres segmentos de longitud $$a, b,  c$$ , entonces puedes formar un triángulo con ellos si y solo si se cumple la siguiente desigualdad:
+$$a + b > c,  b + c > a,  c + a > b$$
 
 ## Procedimiento 
 1. Solicitar que se ingresen los valores de los lados a considerar.
