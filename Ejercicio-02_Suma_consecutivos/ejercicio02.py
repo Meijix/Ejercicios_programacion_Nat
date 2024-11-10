@@ -6,11 +6,14 @@
 def suma_consecutiva(numero):
     suma = 0
     for i in range(1, numero + 1):
-        suma += i
-        return suma
+        suma += i  
+    return suma
 
-numero = int(input("Ingrese un numero entre 1 y 50: "))
-if 1 <= numero <= 50:
-    print(suma_consecutiva(numero))
+#print(suma_consecutiva(10))  # Output: 55
+
+num = int(input("Ingrese un numero entre 1 y 50: "))
+
+if 1 <= num <= 50:
+    print("La suma de sus consecutivos es:", suma_consecutiva(num))
 else:
     print("El numero ingresado no es valido")  #Si el usuario ingresa un numero fuera del rango, el programa debe mostrar un mensaje de error.
