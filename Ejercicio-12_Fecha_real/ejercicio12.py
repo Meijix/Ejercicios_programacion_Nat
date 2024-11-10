@@ -1,5 +1,7 @@
 #Programa que reciba un dia, mes y año y devuelva verdadero si la fecha es real y falso en caso contrario.
 #Debe tener en cuenta los años bisiestos.
+
+#Es la funcion del ejercicio 10
 def es_bisiesto(año:int ) -> bool:
     if año % 4 == 0 and (año % 100 != 0 or año % 400 == 0):
         return True               
@@ -30,7 +32,7 @@ def es_fecha_real(dia, mes, año):
             print("El año es bisiesto")
         else:
             print("El año no es bisiesto")
-            
+
         #Si el año es bisiesto, febrero tiene 29 días
         if bisiesto==True:
             if dia < 1 or dia > 29:
