@@ -3,7 +3,6 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
 
 ### Natalia Mejia 
 
-
 ## Procedimiento 
 1. Inicializar una variable para almacenar el número actual.
 2. Verificar si el número actual es par.
