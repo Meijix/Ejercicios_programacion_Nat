@@ -1,7 +1,6 @@
+##### Natalia Edith Mejia Bautista 
 # Ejercicio 1
 Escribir un programa que imprima los numeros pares del 0 al 100.
-
-### Natalia Mejia 
 
 ## Procedimiento 
 1. Inicializar una variable para almacenar el número actual.
@@ -22,4 +21,4 @@ def hola_mundo():
 ```
 
 ## Codigo fuente
-En el archivo .py
+En el archivo **ejercicio01.py**
