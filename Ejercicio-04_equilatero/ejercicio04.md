@@ -1,12 +1,12 @@
 ##### Natalia Edith Mejia Bautista 
 # Ejercicio 3
-Programa que recibe un monto en dolares y lo convierte a pesos.
+Programa que calcula el perimetro de un triangulo equilatero
+Se pide al usuario que ingrese la longitud de un lado del triangulo.
 
 ## Procedimiento 
-1. Solicitar que se ingrese un monto en dolares
-2. Solicitar ingresar la tasa de cambio actual
-3. Calcular el monto en pesos
-4. Mostrar el monto en pesos
+1. Solicitar que se ingrese la longitud de uno de los lados del triangulo.
+2. Calcular el perimetro del triangulo.
+3. Mostrar el resultado.
 
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
@@ -19,4 +19,4 @@ def hola_mundo():
 ```
 
 ## Codigo fuente
-En el archivo **ejercicio03.py**
+En el archivo **ejercicio04.py**
