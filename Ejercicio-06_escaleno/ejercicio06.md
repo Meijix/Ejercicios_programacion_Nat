@@ -13,10 +13,26 @@ Programa que calcula el perimetro de un triangulo escaleno.
 
 
 ## Pseudocodigo
-```python
-def hola_mundo():
-    print("¡Hola, mundo!")
+```plaintext
+INICIO
+    Solicitar la longitud de los 3 lados
+    Calcular el perimetro
+    Mostrar el perimetro
+FIN
 ```
 
 ## Codigo fuente
 En el archivo **ejercicio06.py**
+```python
+def calcular_perimetro(lado1, lado2, lado3):
+    perimetro = lado1 + lado2 + lado3
+    return perimetro
+
+#Debe recibir la longitud de la base y de los lados iguales
+print("Perimetro de un triangulo escaleno")
+lado1 = float(input("Ingrese la longitud del lado 1: "))
+lado2 = float(input("Ingrese la longitud del lado 2: "))
+lado3 = float(input("Ingrese la longitud del lado 3: "))
+#Calcula el perimetro del triangulo isosceles
+print(f"El perimetro del triangulo escaleno con lados {lado1},{lado2}, {lado3} es:", calcular_perimetro(lado1, lado2, lado3))
+```
