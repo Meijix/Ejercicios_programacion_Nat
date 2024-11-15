@@ -13,10 +13,22 @@ Se pide al usuario que ingrese la longitud de un lado del triangulo.
 
 
 ## Pseudocodigo
-```python
-def hola_mundo():
-    print("¡Hola, mundo!")
+```plaintext
+INICIO
+    Ingresar longitud_lado
+    Calcular perimetro
+    Mostrar perimetro
+FIN
 ```
 
 ## Codigo fuente
 En el archivo **ejercicio04.py**
+```python
+def calcular_perimetro(lado):
+    perimetro = lado * 3
+    return perimetro
+
+print("Perimetro de un triangulo equilatero")
+long_lado = float(input("Ingrese la longitud de uno de los lados: "))
+print(f"El perimetro del triangulo equilatero con lados de longitud {long_lado} es:", calcular_perimetro(long_lado))
+```
