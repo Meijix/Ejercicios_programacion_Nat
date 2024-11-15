@@ -19,14 +19,26 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
 Para imprimir **"¡Hola, mundo!"** en Python: -->
 
 ## Pseudocodigo
-```python
-inicializar variables
-inicializar ciclo
-    Verificar n es par
-    Imprimir variable
-    Variable = variable + 1
-fin ciclo
+```plaintext
+Inicio
+    Definir start = 0
+    Definir end = 100
+    
+    Para i desde start hasta end - 1 hacer:
+        Si i % 2 == 0 entonces
+            Imprimir i
+        FinSi
+    FinPara
+Fin
 ```
 
 ## Codigo fuente
 En el archivo **ejercicio01.py**
+```python
+start=0
+end=100
+
+for i in range(start, end):
+    if i % 2 == 0:
+        print(i) 
+```
