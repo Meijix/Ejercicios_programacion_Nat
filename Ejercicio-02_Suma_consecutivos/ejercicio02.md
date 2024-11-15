@@ -10,16 +10,31 @@ Programa que recibe un numero de entrada entre 1 y 50 y suma los numeros consecu
 
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
-![Logo de Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
-
-Asi podemos hablar de `fun encontrar_pares`
-Para imprimir **"¡Hola, mundo!"** en Python:
 
 ## Pseudocodigo
-```python
-def hola_mundo():
-    print("¡Hola, mundo!")
+```plaintext
+Inicio
+    Leer num desde la entrada del usuario   
+    Verificar si num esta entre 1 y 50
+        Imprimir la suma de sus consecutivos
+    Sino
+        Imprimir "El número ingresado no es válido"
+    FinSi
+Fin
 ```
 
 ## Codigo fuente
 En el archivo **ejercicio02.py**
+```python
+def suma_consecutiva(numero):
+    suma = 0
+    for i in range(1, numero + 1):
+        suma += i  
+    return suma
+
+num = int(input("Ingrese un numero entre 1 y 50: "))
+if 1 <= num <= 50:
+    print("La suma de sus consecutivos es:", suma_consecutiva(num))
+else:
+    print("El numero ingresado no es valido") 
+```
