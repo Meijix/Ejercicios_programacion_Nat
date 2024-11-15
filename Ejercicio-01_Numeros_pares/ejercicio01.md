@@ -3,24 +3,29 @@
 Escribir un programa que imprima los numeros pares del 0 al 100.
 
 ## Procedimiento 
-1. Inicializar una variable para almacenar el número actual.
-2. Verificar si el número actual es par.
-3. Si es par, entonces imprimir. Si no lo es, seguir.
-4. Incrementar el número actual en 1.
-5. Repetir hasta llegar al 100.
-6. Terminar.
+1. Inicializar una variable para almacenar el número de inicio y final.
+2. Inicializar un ciclo.
+3. Verificar si es numero par.
+4. Si es par, entonces imprimir. Si no lo es, seguir.
+5. Incrementar el número actual en 1.
+6. Repetir hasta llegar al 100.
+7. Terminar.
 
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
-![Logo de Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+<!-- ![Logo de Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png) -->
 
-Asi podemos hablar de `fun encontrar_pares`
-Para imprimir **"¡Hola, mundo!"** en Python:
+<!-- Asi podemos hablar de `fun encontrar_pares`
+Para imprimir **"¡Hola, mundo!"** en Python: -->
 
 ## Pseudocodigo
 ```python
-def hola_mundo():
-    print("¡Hola, mundo!")
+inicializar variables
+inicializar ciclo
+    Verificar n es par
+    Imprimir variable
+    Variable = variable + 1
+fin ciclo
 ```
 
 ## Codigo fuente
