@@ -9,8 +9,8 @@ Programa que calcula el perimetro de un triangulo escaleno.
 3. Mostrar el resultado.
 
 ## Entradas y salidas
-| Valor  | **Tipo**  | Right Aligned |
-|:------------- |:---------------:| -------------:|
+| Nombre  | Descripcion  | Tipo |
+|:-------------: |:---------------:| :-------------:|
 | Row 1         | **Bold**        | Cell 3        |
 | Row 2         | *Italic*        | Cell 6        |
 | Row 3         | ~~Strike~~      | Cell 9        |
