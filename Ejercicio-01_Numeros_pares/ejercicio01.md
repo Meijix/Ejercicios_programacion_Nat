@@ -11,6 +11,15 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
 6. Repetir hasta llegar al 100.
 7. Terminar.
 
+##Entradas y salidas
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| Row 1         | **Bold**        | Cell 3        |
+| Row 2         | *Italic*        | Cell 6        |
+| Row 3         | ~~Strike~~      | Cell 9        |
+| Row 3         | [Link](dot.com) | Cell 9        |
+
+
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 <!-- ![Logo de Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png) -->

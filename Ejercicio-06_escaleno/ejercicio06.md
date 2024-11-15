@@ -8,6 +8,15 @@ Programa que calcula el perimetro de un triangulo escaleno.
 2. Calcular el perimetro del triangulo.
 3. Mostrar el resultado.
 
+## Entradas y salidas
+| Valor  | **Tipo**  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| Row 1         | **Bold**        | Cell 3        |
+| Row 2         | *Italic*        | Cell 6        |
+| Row 3         | ~~Strike~~      | Cell 9        |
+| Row 3         | [Link](dot.com) | Cell 9        |
+
+
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
