@@ -9,11 +9,17 @@ Programa que calcula el perimetro de un triangulo escaleno.
 3. Mostrar el resultado.
 
 ## Entradas y salidas
+#### Entradas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| Lado 1       |Longitud de un lado | int | 0 | Ninguno |
-| Lado 2       |Longitud de un lado | int | 0 | Ninguno |
-| Lado 3       |Longitud de un lado | int | 0 | Ninguno |
+| Lado 1       |Longitud de un lado | float | 0 | Ninguno |
+| Lado 2       |Longitud de un lado | float | 0 | Ninguno |
+| Lado 3       |Longitud de un lado | float | 0 | Ninguno |
+
+#### Salidas
+| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+|:-------------:|:---------------:| :-------------:|:---------:|:---------:|
+| Perimetro       |Suma de los 3 lados| float | 0 | Ninguno |
 
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
