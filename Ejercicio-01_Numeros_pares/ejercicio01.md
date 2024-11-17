@@ -29,18 +29,15 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
 | start  |Valor de inicio| int | 0 | Ninguno |
-| end  |Valor de finalizacion| int | 0 | Ninguno |
+| end  |Valor de finalizacion| int | start+1 | Ninguno |
 
 #### Entradas
 El programa no requiere que se ingresen valores.
 
 #### Salidas
-| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
-|:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| Perimetro       |Suma de los 3 lados| float | 0 | Ninguno |
-
+Todos los numeros enteros pares entre `start` y `end`.
 #### Mensajes de salida
-El perimetro del triangulo de lados `lado1` es: `perimetro`
+"Los numeros pares entre `start` y `end` son: "
 
 ## Diseno de la solucion 
 La solucion se realizo de la siguiente forma:
@@ -79,6 +76,11 @@ for i in range(start, end):
 ```
 
 #### Pruebas de escritorio
-| Entrada | Condiciones | Salida Esperada | Salida |
-|:-------------:|:---------------:| :-------------:|:---------:|
-| Lado 1 = 5, Lado 2 = 6, Lado 3 = 2 | longitudes > 0 | perimetro = 13 | perimetro = 13 |
+| Salida Esperada | Salida |
+|:-------------:|:---------:|
+| 0 | 0 |
+| 2 | 2 |
+| 4 | 4 |
+| ... | ...|
+| 98 | 98 |
+| 100 | 100 |
