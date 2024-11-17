@@ -26,7 +26,7 @@ Programa que calcula el perimetro de un triangulo escaleno.
 | Perimetro       |Suma de los 3 lados| float | 0 | Ninguno |
 
 #### Mensajes de salida
-El perimetro del triangulo de lados `l1` es: `perimetro`
+El perimetro del triangulo de lados `lado1` es: `perimetro`
 
 ## Diseno de la solucion 
 La solucion se realizo de la siguiente forma:
