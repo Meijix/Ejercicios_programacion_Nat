@@ -39,7 +39,9 @@ La solucion se realizo de la siguiente forma:
 ```plaintext
 Inicio
     Ingresar monto el dolares
+        Verificar que es monto valido
     Ingresar tasa de cambio actual
+        Verificar que es tasa de cambio valida
     Calcular monto en pesos 
     Imprimir resultado
 Fin
@@ -70,4 +72,4 @@ print("El monto en pesos es:", convertir_pesos(monto_dolares, tasa_cambio))
 #### Pruebas de escritorio
 | Entrada | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|
-| num = 10 | 55 |55 |
+| monto_dolares = 500, tasa_cambio = 20.16 | xx| xx |
