@@ -17,13 +17,12 @@ Se pide al usuario que ingrese la longitud de un lado del triangulo.
 #### Entradas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| monto_dolares | monto en dolares | float | 0 | Ninguno |
-| tasa_cambio | tasa de cambio actual | float | 0 | Ninguno |
+| longitud_lado | longitud de un lado del triangulo | float | 0 | Ninguno  |
 
 #### Salidas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| monto_pesos | monto en pesos | float | 0 | Ninguno |
+| perimetro | perimetro del triangulo | float | 0 | Ninguno |
 
 #### Mensajes de salida
 - "El perimetro del triangulo equilatero con lados de longitud `long_lado` es: `perimetro`"
