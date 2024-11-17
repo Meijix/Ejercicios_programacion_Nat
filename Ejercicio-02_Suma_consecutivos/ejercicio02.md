@@ -13,19 +13,18 @@ Programa que recibe un numero de entrada entre 1 y 50 y suma los numeros consecu
 4. Si no lo es, imprimir "Numero ingresado no valido"
 
  ## Entradas y salidas
-#### Parametros
+#### Entradas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| start  |Valor de inicio| int | 0 | Ninguno |
-| end  |Valor de finalizacion| int | start+1 | Ninguno |
-
-#### Entradas
-El programa no requiere que se ingresen valores.
+| num  |Numero a considerar| int | 1 | Ninguno |
 
 #### Salidas
-Todos los numeros enteros pares entre `start` y `end`.
+| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+|:-------------:|:---------------:| :-------------:|:---------:|:---------:|
+| suma  | Suma de los numeros consecutivos hasta el numero ingresado | int | NA | NA
 #### Mensajes de salida
-"Los numeros pares entre `start` y `end` son: "
+- "La suma de sus consecutivos es: `suma`"
+- "El número ingresado no es válido"
 
 ## Diseno de la solucion 
 La solucion se realizo de la siguiente forma:
