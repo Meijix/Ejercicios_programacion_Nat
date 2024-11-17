@@ -17,15 +17,16 @@ Programa que recibe un monto en dolares y lo convierte a pesos.
 #### Entradas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| num  |Numero a considerar| int | 1 | Ninguno |
+| monto_dolares | monto en dolares | float | 0 | Ninguno |
+| tasa_cambio | tasa de cambio actual | float | 0 | Ninguno |
 
 #### Salidas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| suma  | Suma de los numeros consecutivos hasta el numero ingresado | int | NA | NA
+| monto_pesos | monto en pesos | float | 0 | Ninguno |
 
 #### Mensajes de salida
-- "La suma de sus consecutivos es: `suma`"
+- "El monto en pesos es: `monto_pesos`"
 - "El número ingresado no es válido"
 
 ## Diseno de la solucion 
@@ -52,7 +53,17 @@ def convertir_pesos(monto_dolares, tasa_cambio):
     return monto_pesos
 
 monto_dolares = float(input("Ingrese el monto en dolares: "))
+if monto_dolares<=0:
+    print("El número ingresado no es válido")
+    else:
+        pass
+
 tasa_cambio = float(input("Ingrese la tasa de cambio actual: "))
+if tasa_cambio<=0:
+    print("El número ingresado no es válido")
+    else:
+        pass
+
 print("El monto en pesos es:", convertir_pesos(monto_dolares, tasa_cambio))
 ```
 
