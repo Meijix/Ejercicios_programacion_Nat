@@ -1,5 +1,7 @@
 ##### Natalia Edith Mejia Bautista 
 # Ejercicio 6
+
+## Enunciado del problema
 Programa que calcula el perimetro de un triangulo escaleno.
 
 
@@ -21,11 +23,16 @@ Programa que calcula el perimetro de un triangulo escaleno.
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
 | Perimetro       |Suma de los 3 lados| float | 0 | Ninguno |
 
-## Diagrama de actividad
+#### Mensajes de salida
+El perimetro del triangulo de lados `l1` es: `perimetro`
+
+## Diseno de la solucion 
+La solucion se realizo de la siguiente forma:
+#### Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
 
-## Pseudocodigo
+#### Pseudocodigo
 ```plaintext
 INICIO
     Solicitar la longitud de los 3 lados
