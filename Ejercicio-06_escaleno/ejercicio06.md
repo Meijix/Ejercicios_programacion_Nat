@@ -1,4 +1,6 @@
 ##### Natalia Edith Mejia Bautista 
+###### 16 noviembre, 2024
+
 # Ejercicio 6
 
 ## Enunciado del problema
@@ -56,3 +58,8 @@ lado3 = float(input("Ingrese la longitud del lado 3: "))
 #Calcula el perimetro del triangulo isosceles
 print(f"El perimetro del triangulo escaleno con lados {lado1},{lado2}, {lado3} es:", calcular_perimetro(lado1, lado2, lado3))
 ```
+
+#### Pruebas de escritorio
+| Entrada | Condiciones | Salida Esperada | Salida |
+|:-------------:|:---------------:| :-------------:|:---------:|
+| Lado 1 = 5, Lado 2 = 6, Lado 3 = 2 | longitudes > 0 | perimetro = 13 | perimetro = 13 |
