@@ -9,13 +9,11 @@ Programa que calcula el perimetro de un triangulo escaleno.
 3. Mostrar el resultado.
 
 ## Entradas y salidas
-| Nombre  | Descripcion  | Tipo |
-|:-------------: |:---------------:| :-------------:|
-| Row 1         | **Bold**        | Cell 3        |
-| Row 2         | *Italic*        | Cell 6        |
-| Row 3         | ~~Strike~~      | Cell 9        |
-| Row 3         | [Link](dot.com) | Cell 9        |
-
+| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+|:-------------:|:---------------:| :-------------:|:---------:|:---------:|
+| Lado 1       |Longitud de un lado | int | 0 | Ninguno |
+| Lado 2       |Longitud de un lado | int | 0 | Ninguno |
+| Lado 3       |Longitud de un lado | int | 0 | Ninguno |
 
 ## Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
