@@ -22,6 +22,7 @@ Programa que recibe un numero de entrada entre 1 y 50 y suma los numeros consecu
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
 | suma  | Suma de los numeros consecutivos hasta el numero ingresado | int | NA | NA
+
 #### Mensajes de salida
 - "La suma de sus consecutivos es: `suma`"
 - "El número ingresado no es válido"
@@ -60,8 +61,7 @@ else:
     print("El numero ingresado no es valido") 
 ```
 
-
 #### Pruebas de escritorio
-| Entrada | Condiciones | Salida Esperada | Salida |
-|:-------------:|:---------------:| :-------------:|:---------:|
-| num = 10 |  | 55 |55 |
+| Entrada | Salida Esperada | Salida |
+|:-------------:|:---------------:| :-------------:|
+| num = 10 | 55 |55 |
