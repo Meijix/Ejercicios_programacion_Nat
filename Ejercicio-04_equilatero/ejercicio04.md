@@ -26,7 +26,7 @@ Se pide al usuario que ingrese la longitud de un lado del triangulo.
 | monto_pesos | monto en pesos | float | 0 | Ninguno |
 
 #### Mensajes de salida
-- "El monto en pesos es: `monto_pesos`"
+- "El perimetro del triangulo equilatero con lados de longitud `long_lado` es: `perimetro`"
 - "El número ingresado no es válido"
 
 ## Diseno de la solucion 
@@ -39,6 +39,7 @@ La solucion se realizo de la siguiente forma:
 ```plaintext
 INICIO
     Ingresar longitud_lado
+        Verificar longitud valida
     Calcular perimetro
     Mostrar perimetro
 FIN
