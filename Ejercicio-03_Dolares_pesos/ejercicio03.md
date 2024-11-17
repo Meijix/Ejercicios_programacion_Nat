@@ -1,5 +1,9 @@
 ##### Natalia Edith Mejia Bautista 
+###### 16 noviembre, 2024
+
 # Ejercicio 3
+
+## Enunciado del problema
 Programa que recibe un monto en dolares y lo convierte a pesos.
 
 ## Procedimiento 
@@ -8,11 +12,29 @@ Programa que recibe un monto en dolares y lo convierte a pesos.
 3. Calcular el monto en pesos
 4. Mostrar el monto en pesos
 
-## Diagrama de actividad
+
+## Entradas y salidas
+#### Entradas
+| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+|:-------------:|:---------------:| :-------------:|:---------:|:---------:|
+| num  |Numero a considerar| int | 1 | Ninguno |
+
+#### Salidas
+| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+|:-------------:|:---------------:| :-------------:|:---------:|:---------:|
+| suma  | Suma de los numeros consecutivos hasta el numero ingresado | int | NA | NA
+
+#### Mensajes de salida
+- "La suma de sus consecutivos es: `suma`"
+- "El número ingresado no es válido"
+
+## Diseno de la solucion 
+La solucion se realizo de la siguiente forma:
+#### Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
 
-## Pseudocodigo
+#### Pseudocodigo
 ```plaintext
 Inicio
     Ingresar monto el dolares
@@ -33,3 +55,8 @@ monto_dolares = float(input("Ingrese el monto en dolares: "))
 tasa_cambio = float(input("Ingrese la tasa de cambio actual: "))
 print("El monto en pesos es:", convertir_pesos(monto_dolares, tasa_cambio))
 ```
+
+#### Pruebas de escritorio
+| Entrada | Salida Esperada | Salida |
+|:-------------:|:---------------:| :-------------:|
+| num = 10 | 55 |55 |

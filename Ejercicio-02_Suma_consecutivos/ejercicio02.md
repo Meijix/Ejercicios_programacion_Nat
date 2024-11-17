@@ -12,7 +12,7 @@ Programa que recibe un numero de entrada entre 1 y 50 y suma los numeros consecu
 3. Si es valido, sumar los numeros consecutivos hasta llegar al numero ingresado e imprimir la suma.
 4. Si no lo es, imprimir "Numero ingresado no valido"
 
- ## Entradas y salidas
+## Entradas y salidas
 #### Entradas
 | Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
