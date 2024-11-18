@@ -32,7 +32,7 @@ La solucion se realizo de la siguiente forma:
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
 
-#### Pseudocodigo
+#### Pseudocódigo
 ```plaintext
 INICIO
     Solicitar año
@@ -41,14 +41,23 @@ INICIO
 FIN
 ```
 
-## Codigo fuente
+## Código fuente
 En el archivo **ejercicio10.py**
 ```python
-def hola_mundo():
-    print("¡Hola, mundo!")
+def es_bisiesto(año:int ) -> bool:
+    if año % 4 == 0 and (año % 100 != 0 or año % 400 == 0):
+        return True               
+    else:
+        return False
+    
+#Debe recibir el año a evaluar
+año = int(input("Ingrese el año a evaluar: "))
+#Llama a la función con el año ingresado
+print(f"El año {año} es bisiesto?",es_bisiesto(año))  # Imprime True si el año es bisiesto
 ```
 
 #### Pruebas de escritorio
 | Entrada | Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:---------:|
-| Lado 1 = 5, Lado 2 = 6, Lado 3 = 2 | longitudes > 0 | perimetro = 13 | perimetro = 13 |
+| 2020 | Es bisiesto | True | True
+| 2021 | No es bisiesto | False | False
