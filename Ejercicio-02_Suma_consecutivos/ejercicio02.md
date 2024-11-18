@@ -33,7 +33,7 @@ Programa que recibe un número de entrada entre 1 y 50 y suma los números conse
 ## Diseño de la solución 
 La solución se realizó de la siguiente forma:
 #### Diagrama de actividad
-![Ejemplo de imagen](https://ejemplo.com/imagen.png)
+![Diagrama de actividad 02](/Imagenes/Diagrama02.png)
 
 
 #### Pseudocódigo
