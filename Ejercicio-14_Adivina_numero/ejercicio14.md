@@ -5,11 +5,12 @@
 
 ## Enunciado del problema
 Programa en el que el usuario debe adivinar un numero aleatorio entre 1 y 100
-Hint: El programa debe mostrar si el numero ingresado es mayor o menor al numero a adivinar
-El programa debe mostrar cuantos intentos le tomo al usuario adivinar el numero
-El usuario solo tiene 5 intentos para adivinar el numero
-El programa debe mostrar un mensaje de GANASTE si el usuario adivina el numero
-El programa debe mostrar un mensaje de PERDISTE si el usuario no adivina el numero y el numero a adivinar
+**Hint:** El programa debe mostrar si el numero ingresado es mayor o menor al numero a adivinar
+
+- El programa debe mostrar cuantos intentos le tomo al usuario adivinar el numero
+- El usuario solo tiene 5 intentos para adivinar el numero
+- El programa debe mostrar un mensaje de GANASTE si el usuario adivina el numero
+- El programa debe mostrar un mensaje de PERDISTE si el usuario no adivina el numero y el numero a adivinar
 
 
 ## Procedimiento 
@@ -47,24 +48,31 @@ FIN
 ## Código fuente
 En el archivo **ejercicio13.py**
 ```python
-def ping_pong():
-    for i in range(1, 101):
-        if i % 3 == 0 and i % 5 == 0:
-            print("ping pong")
-        elif i % 3 == 0:
-            print("ping")
-        elif i % 5 == 0:
-            print("pong")
-        else:
-            print(i)
-
-ping_pong()
+import random
+numero_a_adivinar = random.randint(1, 100)
+intentos = 0
+print("Adivina el numero entre 1 y 100")
+print("Tienes 5 intentos")
+print("Buena suerte!")
+while intentos < 5:
+    intentos += 1
+    numero_ingresado = int(input("Ingrese un numero: "))
+    if numero_ingresado < numero_a_adivinar:
+        print("Intenta un numero mayor")
+    elif numero_ingresado > numero_a_adivinar:
+        print("Intenta un numero menor")
+    else:
+        print(f"GANASTE! El numero a adivinar era {numero_a_adivinar}")
+        print(f"Se necesitaron {intentos} intentos para adivinar el numero")
+        break
+else:
+    print(f"PERDISTE! El numero a adivinar era {numero_a_adivinar}")
 ```
 
 #### Pruebas de escritorio
+**Numero a adivinar:** 86
+
 | Entrada | Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:---------:|
-| 3 | Divisible entre 3 | "ping" | "ping" |
-|4 | No divisible entre 3 y 5 | 4 | 4 |
-| 5 | Divisible entre 5 | "pong" | "pong" |
-| 15 | Divisible entre 3 y 5 | "ping pong" | "ping pong
+| 50 | El numero ingresado es menor que el numero a adivinar | Intenta un numero mayor | Intenta un numero mayor |
+| 70 | El numero ingresado es mayor que el numero a adivinar | Intenta 
