@@ -1,3 +1,5 @@
+![headerDGTIC](/Imagenes/headerDGTIC.png)
+
 ##### Natalia Edith Mejia Bautista 
 ###### 16 noviembre, 2024
 
@@ -84,3 +86,5 @@ for i in range(start, end):
 | ... | ...|
 | 98 | 98 |
 | 100 | 100 |
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)
