@@ -38,18 +38,28 @@ La solucion se realizo de la siguiente forma:
 INICIO
     INGRESAR NUMERO
     SI EL NUMERO ES VALIDO
-    IMPRIMIR TABLA DE MULTIPLICAR DEL NUMERO DEL 2 AL 10
+        MOSTRAR EL MES CORRESPONDIENTE AL NUMERO
+    FIN SI
 FIN
 ```
 
 ## Código fuente
 En el archivo **ejercicio11.py**
 ```python
-def hola_mundo():
-    print("¡Hola, mundo!")
+#Arreglo con los nombres de los meses ordenados
+meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+
+numero = int(input("Ingrese un numero entero entre 0 y 11: "))
+if 0 <= numero <= 11:
+    print(meses[numero])
+else:
+    print("El numero ingresado no es valido")
 ```
 
 #### Pruebas de escritorio
 | Entrada | Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:---------:|
-| Lado 1 = 5, Lado 2 = 6, Lado 3 = 2 | longitudes > 0 | perimetro = 13 | perimetro = 13 |
+| 0 | Numero valido | Enero | Enero |
+| 11 | Numero valido| Diciembre | Diciembre |
+| 15 | Numero superior al limite | El numero ingresado no es valido | El numero ingresado no es valido |
+| -2 | Numero negativo | El numero ingresado no es valido |El numero ingresado no es valido |
