@@ -9,7 +9,7 @@ Programa que recibe un numero e imprime la tabla de multiplicar de ese numero de
 
 ## Procedimiento 
 1. Solicitar que se ingrese un numero.
-2. MOstrar la tabla de multiplicar de ese numero
+2. Mostrar la tabla de multiplicar de ese numero
 
 ## Entradas y salidas
 #### Entradas
@@ -27,8 +27,9 @@ Programa que recibe un numero e imprime la tabla de multiplicar de ese numero de
 #### Mensajes de salida
 El perimetro del triangulo de lados `lado1`, `lado2` y `lado3` es: `perimetro`
 
-## Diseno de la solucion 
+## Diseño de la solución 
 La solucion se realizo de la siguiente forma:
+
 #### Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
