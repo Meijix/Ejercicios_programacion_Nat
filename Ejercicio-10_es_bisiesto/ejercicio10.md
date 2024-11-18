@@ -23,7 +23,7 @@ Programa que recibe un año y determina si es bisiesto o no
 | bisiesto | Indicador de si el año es bisiesto | bool | NA | NA |
 
 #### Mensajes de salida
-El perimetro del triangulo de lados `lado1`, `lado2` y `lado3` es: `perimetro`
+""
 
 ## Diseño de la solución 
 La solucion se realizo de la siguiente forma:
@@ -35,9 +35,9 @@ La solucion se realizo de la siguiente forma:
 #### Pseudocodigo
 ```plaintext
 INICIO
-    INGRESAR NUMERO
-    SI EL NUMERO ES VALIDO
-    IMPRIMIR TABLA DE MULTIPLICAR DEL NUMERO DEL 2 AL 10
+    Solicitar año
+    Verificar si es bisiesto
+    Mostrar resultado
 FIN
 ```
 
