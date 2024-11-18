@@ -47,7 +47,7 @@ La solución se realizó de la siguiente forma:
 ![Diagrama de actividad 01](/Imagenes/Diagrama01.png)
 
 
-#### Pseudocodigo
+#### Pseudocódigo
 <!-- ![Logo de Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png) -->
 
 <!-- Asi podemos hablar de `fun encontrar_pares`
@@ -66,7 +66,7 @@ Inicio
 Fin
 ```
 
-## Codigo fuente
+## Código fuente
 En el archivo **ejercicio01.py**
 ```python
 start=0
