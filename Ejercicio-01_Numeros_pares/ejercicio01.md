@@ -30,8 +30,8 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
 #### Parámetros
 | Nombre  | Descripción  | Tipo | Límite inferior | Límite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| start  |Valor de inicio| int | 0 | Ninguno |
-| end  |Valor de finalización| int | start+1 | Ninguno |
+| `start`  |Valor de inicio| int | 0 | Ninguno |
+| `end`  |Valor de finalización| int | start+1 | Ninguno |
 
 #### Entradas
 El programa no requiere que se ingresen valores.
