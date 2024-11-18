@@ -11,8 +11,9 @@ Programa que recibe un número de entrada entre 1 y 50 y suma los números conse
 ## Procedimiento 
 1. Solicitar que se ingrese un número del 1 al 50.
 2. Verificar si el número ingresado es válido (está entre el 1 y 50).
-3. Si es válido, sumar los números consecutivos hasta llegar al número ingresado e imprimir la suma.
-4. Si no lo es, imprimir "Número ingresado no válido".
+3. Si no lo es, imprimir "Número ingresado no válido".
+4. Si es válido, sumar los números consecutivos hasta llegar al número ingresado e imprimir la suma.
+
 
 ## Entradas y salidas
 #### Entradas
@@ -38,14 +39,19 @@ La solución se realizó de la siguiente forma:
 #### Pseudocódigo
 ```plaintext
 Inicio
-    Leer num desde la entrada del usuario   
-    Verificar si num está entre 1 y 50
-    Si num está entre 1 y 50
-        Calcular la suma de sus consecutivos
-        Imprimir el resultado
-    Sino
-        Imprimir "El número ingresado no es válido"
-    FinSi
+    Leer num desde la entrada del usuario
+    Mientras num>50 o num<1
+        Imprimir "Número ingresado no válido"
+    Fin Mientras
+
+    Calcular la suma de sus consecutivos
+        suma = 0
+        Para i en el rango del 1 a num
+            suma += i
+            i += 1
+        Fin Para
+    Imprimir el resultado
+
 Fin
 ```
 
@@ -59,10 +65,12 @@ def suma_consecutiva(numero):
     return suma
 
 num = int(input("Ingrese un número entre 1 y 50: "))
-if 1 <= num <= 50:
-    print("La suma de sus consecutivos es:", suma_consecutiva(num))
-else:
-    print("El número ingresado no es valido") 
+#Volver a solicitar el numero hasta que el usuario ingrese un numero valido.
+while num < 1 or num > 50:
+    print("El número ingresado no es válido")
+    num = int(input("Ingrese un número entre 1 y 50: "))
+
+print("La suma de sus consecutivos es:", suma_consecutiva(num))
 ```
 
 #### Pruebas de escritorio
