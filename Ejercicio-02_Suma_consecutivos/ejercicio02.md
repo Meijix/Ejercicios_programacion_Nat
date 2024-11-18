@@ -9,10 +9,10 @@
 Programa que recibe un número de entrada entre 1 y 50 y suma los números consecutivos hasta llegar a ese número.
 
 ## Procedimiento 
-1. Solicitar que se ingrese un número del 1 al 50
-2. Verificar si el número ingresado es válido (está entre el 1 y 50)
+1. Solicitar que se ingrese un número del 1 al 50.
+2. Verificar si el número ingresado es válido (está entre el 1 y 50).
 3. Si es válido, sumar los números consecutivos hasta llegar al número ingresado e imprimir la suma.
-4. Si no lo es, imprimir "Número ingresado no válido"
+4. Si no lo es, imprimir "Número ingresado no válido".
 
 ## Entradas y salidas
 #### Entradas
