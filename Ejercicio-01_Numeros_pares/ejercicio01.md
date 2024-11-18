@@ -44,7 +44,7 @@ Todos los numeros enteros pares entre `start` y `end`.
 ## Diseno de la solucion 
 La solucion se realizo de la siguiente forma:
 #### Diagrama de actividad
-![Ejemplo de imagen](https://ejemplo.com/imagen.png)
+![Diagrama de actividad 01](/Imagenes/Diagrama01.png)
 
 
 #### Pseudocodigo
