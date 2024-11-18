@@ -1,6 +1,6 @@
 ![headerDGTIC](/Imagenes/headerDGTIC.png)
 
-##### Natalia Edith Mejia Bautista 
+##### Natalia Edith Mejía Bautista 
 ###### 16 noviembre, 2024
 
 # Ejercicio 1
@@ -11,7 +11,7 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
 ## Procedimiento 
 1. Inicializar una variable para almacenar el número de inicio y final.
 2. Inicializar un ciclo.
-3. Verificar si es numero par.
+3. Verificar si es número par.
 4. Si es par, entonces imprimir. Si no lo es, seguir.
 5. Incrementar el número actual en 1.
 6. Repetir hasta llegar al 100.
@@ -27,22 +27,22 @@ Escribir un programa que imprima los numeros pares del 0 al 100.
  -->
 
  ## Entradas y salidas
-#### Parametros
-| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+#### Parámetros
+| Nombre  | Descripción  | Tipo | Límite inferior | Límite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
 | start  |Valor de inicio| int | 0 | Ninguno |
-| end  |Valor de finalizacion| int | start+1 | Ninguno |
+| end  |Valor de finalización| int | start+1 | Ninguno |
 
 #### Entradas
 El programa no requiere que se ingresen valores.
 
 #### Salidas
-Todos los numeros enteros pares entre `start` y `end`.
+Todos los números enteros pares entre `start` y `end`.
 #### Mensajes de salida
 "Los numeros pares entre `start` y `end` son: "
 
-## Diseno de la solucion 
-La solucion se realizo de la siguiente forma:
+## Diseño de la solución 
+La solución se realizó de la siguiente forma:
 #### Diagrama de actividad
 ![Diagrama de actividad 01](/Imagenes/Diagrama01.png)
 
