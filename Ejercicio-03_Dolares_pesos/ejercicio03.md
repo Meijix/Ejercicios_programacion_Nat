@@ -37,7 +37,7 @@ La solución se realizó de la siguiente forma:
 ![Diagrama de actividad 03](/Imagenes/Diagrama03.png)
 
 
-#### Pseudocodigo
+#### Pseudocódigo
 ```plaintext
 Inicio
     Ingresar monto el dólares
@@ -49,7 +49,7 @@ Inicio
 Fin
 ```
 
-## Codigo fuente
+## Código fuente
 En el archivo **ejercicio03.py**
 ```python
 def convertir_pesos(monto_dolares, tasa_cambio):

@@ -36,7 +36,7 @@ La solución se realizó de la siguiente forma:
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
 
-#### Pseudocodigo
+#### Pseudocódigo
 ```plaintext
 INICIO
     Ingresar longitud_lado
@@ -46,7 +46,7 @@ INICIO
 FIN
 ```
 
-## Codigo fuente
+## Código fuente
 En el archivo **ejercicio04.py**
 ```python
 def calcular_perimetro(lado):
