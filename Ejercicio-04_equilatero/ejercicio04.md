@@ -1,6 +1,6 @@
 ![headerDGTIC](/Imagenes/headerDGTIC.png)
 
-##### Natalia Edith Mejia Bautista 
+##### Natalia Edith Mejía Bautista 
 ###### 16 noviembre, 2024
 
 # Ejercicio 4
