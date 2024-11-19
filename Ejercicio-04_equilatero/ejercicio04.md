@@ -33,7 +33,7 @@ Programa que calcula el perímetro de un triángulo equilátero.
 ## Diseño de la solución 
 La solución se realizó de la siguiente forma:
 #### Diagrama de actividad
-![Ejemplo de imagen](https://ejemplo.com/imagen.png)
+![Diagrama de actividad 04](/Imagenes/Diagrama04.png)
 
 
 #### Pseudocódigo
