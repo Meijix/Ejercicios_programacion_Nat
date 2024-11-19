@@ -1,3 +1,5 @@
+![headerDGTIC](/Imagenes/headerDGTIC.png)
+
 ##### Natalia Edith Mejía Bautista 
 ###### 16 noviembre, 2024
 
@@ -30,9 +32,9 @@ Programa que recibe un monto en dólares y lo convierte a pesos.
 - "El número ingresado no es válido"
 
 ## Diseño de la solución 
-La solucion se realizo de la siguiente forma:
+La solución se realizó de la siguiente forma:
 #### Diagrama de actividad
-![Ejemplo de imagen](https://ejemplo.com/imagen.png)
+![Diagrama de actividad 03](/Imagenes/Diagrama03.png)
 
 
 #### Pseudocodigo
@@ -51,21 +53,20 @@ Fin
 En el archivo **ejercicio03.py**
 ```python
 def convertir_pesos(monto_dolares, tasa_cambio):
+    #Convierte el monto en dolares a pesos
     monto_pesos = monto_dolares * tasa_cambio
     return monto_pesos
 
-monto_dolares = float(input("Ingrese el monto en dolares: "))
-if monto_dolares<=0:
-    print("El número ingresado no es válido")
-    else:
-        pass
-
+#Solicita el monto en dolares y la tasa de cambio
+monto_dolares = float(input("Ingrese el monto en dólares: "))
+while monto_dolares < 0:
+    print("El monto no puede ser negativo")
+    monto_dolares = float(input("Ingrese el monto en dólares: "))
 tasa_cambio = float(input("Ingrese la tasa de cambio actual: "))
-if tasa_cambio<=0:
-    print("El número ingresado no es válido")
-    else:
-        pass
-
+while tasa_cambio < 0:
+    print("La tasa de cambio no puede ser negativa")
+    tasa_cambio = float(input("Ingrese la tasa de cambio actual: "))
+#Imprime el monto en pesos
 print("El monto en pesos es:", convertir_pesos(monto_dolares, tasa_cambio))
 ```
 
@@ -74,3 +75,5 @@ print("El monto en pesos es:", convertir_pesos(monto_dolares, tasa_cambio))
 |:-------------:|:---------------:| :-------------:|
 | monto_dolares = 45, tasa_cambio = 20.16 | El monto en pesos es: 907.2| El monto en pesos es: 907.2 |
 | monto_dolares = 82.67, tasa_cambio = 19.61 | El monto en pesos es: 1621.1587 | El monto en pesos es: 1621.1587 |
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)
