@@ -6,8 +6,10 @@ def calcular_perimetro(lado):
     perimetro = lado * 3
     return perimetro
 
-#Ejemplo de uso
-print("Perimetro de un triangulo equilatero")
+print("Perímetro de un triángulo equilátero")
 #Ingresa la longitud de uno de los lados del triangulo equilatero
-long_lado = float(input("Ingrese la longitud de uno de los lados del triangulo equilatero: "))
-print(f"El perimetro del triangulo equilatero con lados de longitud {long_lado} es:", calcular_perimetro(long_lado))
+longitud_lado = float(input("Ingrese la longitud de uno de los lados: "))
+while longitud_lado < 0:
+    print("La longitud del lado no puede ser negativa")
+    longitud_lado = float(input("Ingrese una longitud válida: "))
+print(f"El perímetro del triángulo equilátero con lados de longitud {longitud_lado} es:", calcular_perimetro(longitud_lado))

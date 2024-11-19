@@ -1,35 +1,37 @@
+![headerDGTIC](/Imagenes/headerDGTIC.png)
+
 ##### Natalia Edith Mejia Bautista 
 ###### 16 noviembre, 2024
 
 # Ejercicio 4
 
 ## Enunciado del problema
-Programa que calcula el perimetro de un triangulo equilatero
-Se pide al usuario que ingrese la longitud de un lado del triangulo.
+Programa que calcula el perímetro de un triángulo equilátero.
+- Se pide al usuario que ingrese la longitud de un lado del triángulo.
 
 ## Procedimiento 
-1. Solicitar que se ingrese la longitud de uno de los lados del triangulo.
-2. Calcular el perimetro del triangulo.
+1. Solicitar que se ingrese la longitud de uno de los lados del triángulo.
+2. Calcular el perímetro del triángulo.
 3. Mostrar el resultado.
 
 
 ## Entradas y salidas
 #### Entradas
-| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+| Nombre  | Descripción  | Tipo | Límite inferior | Límite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| longitud_lado | longitud de un lado del triangulo | float | 0 | Ninguno  |
+| `longitud_lado` | longitud de un lado del triangulo | float | 0 | Ninguno  |
 
 #### Salidas
-| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+| Nombre  | Descripción  | Tipo | Límite inferior | Límite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| perimetro | perimetro del triangulo | float | 0 | Ninguno |
+| `perimetro` | Perímetro del triángulo | float | 0 | Ninguno |
 
 #### Mensajes de salida
-- "El perimetro del triangulo equilatero con lados de longitud `long_lado` es: `perimetro`"
+- "El perímetro del triángulo equilátero con lados de longitud `longitud_lado` es: `perimetro`"
 - "El número ingresado no es válido"
 
-## Diseno de la solucion 
-La solucion se realizo de la siguiente forma:
+## Diseño de la solución 
+La solución se realizó de la siguiente forma:
 #### Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
@@ -38,9 +40,9 @@ La solucion se realizo de la siguiente forma:
 ```plaintext
 INICIO
     Ingresar longitud_lado
-        Verificar longitud valida
-    Calcular perimetro
-    Mostrar perimetro
+        Verificar longitud válida
+    Calcular perímetro
+    Mostrar perímetro
 FIN
 ```
 
@@ -52,13 +54,19 @@ def calcular_perimetro(lado):
     return perimetro
 
 print("Perimetro de un triangulo equilatero")
-long_lado = float(input("Ingrese la longitud de uno de los lados: "))
-#Agregar comprobacion de que las longitudes no sean cero o negativos
-print(f"El perimetro del triangulo equilatero con lados de longitud {long_lado} es:", calcular_perimetro(long_lado))
+#Ingresa la longitud de uno de los lados del triangulo equilatero
+longitud_lado = float(input("Ingrese la longitud de uno de los lados del triangulo equilatero: "))
+while longitud_lado < 0:
+    print("La longitud del lado no puede ser negativa")
+    longitud_lado = float(input("Ingrese una longitud válida: "))
+print(f"El perímetro del triángulo equilátero con lados de longitud {longitud_lado} es:", calcular_perimetro(longitud_lado))
 ```
 
 #### Pruebas de escritorio
 | Entrada |Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:-------------:|
-| 5 | Longitud entera | 15 | 15 |
-| 10.2 | Longitud decimal | 30.6 | 30.6 |
+| 5 | Longitud entera | 15 | 15.0 |
+| 10.2 | Longitud decimal | 30.6 | 30.599999999999998 |
+
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)
