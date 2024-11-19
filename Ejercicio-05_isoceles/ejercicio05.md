@@ -10,7 +10,7 @@ Programa que calcula el perimetro de un triangulo isoceles.
 4. Mostrar el resultado.
 
 ## Diagrama de actividad
-![Ejemplo de imagen](https://ejemplo.com/imagen.png)
+![Diagrama de actividad 05](/Imagenes/Diagrama05.png)
 
 
 ## Pseudocodigo
