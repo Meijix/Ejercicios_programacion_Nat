@@ -72,3 +72,5 @@ ping_pong()
 |4 | No divisible entre 3 y 5 | 4 | 4 |
 | 5 | Divisible entre 5 | "pong" | "pong" |
 | 15 | Divisible entre 3 y 5 | "ping pong" | "ping pong
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)

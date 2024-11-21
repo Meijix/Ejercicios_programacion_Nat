@@ -62,3 +62,6 @@ En el archivo **ejercicio13.py**
 
 | Entrada | Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:---------:|
+
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)

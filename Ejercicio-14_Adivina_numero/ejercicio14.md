@@ -76,3 +76,5 @@ else:
 |:-------------:|:---------------:| :-------------:|:---------:|
 | 50 | El numero ingresado es menor que el numero a adivinar | Intenta un numero mayor | Intenta un numero mayor |
 | 70 | El numero ingresado es mayor que el numero a adivinar | Intenta 
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)
