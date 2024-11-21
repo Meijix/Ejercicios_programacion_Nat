@@ -64,3 +64,5 @@ print(f"El perimetro del triangulo escaleno con lados {lado1},{lado2}, {lado3} e
 | Entrada | Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:---------:|
 | Lado 1 = 5, Lado 2 = 6, Lado 3 = 2 | longitudes > 0 | perimetro = 13 | perimetro = 13 |
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)

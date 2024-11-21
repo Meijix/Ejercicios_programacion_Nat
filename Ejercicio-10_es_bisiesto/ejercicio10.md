@@ -61,3 +61,5 @@ print(f"El año {año} es bisiesto?",es_bisiesto(año))  # Imprime True si el a�
 |:-------------:|:---------------:| :-------------:|:---------:|
 | 2020 | Es bisiesto | True | True
 | 2021 | No es bisiesto | False | False
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)

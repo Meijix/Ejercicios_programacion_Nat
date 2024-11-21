@@ -63,3 +63,5 @@ else:
 | 11 | Numero valido| Diciembre | Diciembre |
 | 15 | Numero superior al limite | El numero ingresado no es valido | El numero ingresado no es valido |
 | -2 | Numero negativo | El numero ingresado no es valido |El numero ingresado no es valido |
+
+![footerDGTIC](/Imagenes/footerDGTIC.png)
