@@ -1,15 +1,16 @@
+![headerDGTIC](/Imagenes/headerDGTIC.png)
+
 ##### Natalia Edith Mejia Bautista 
 ###### 16 noviembre, 2024
 
 # Ejercicio 6
 
 ## Enunciado del problema
-Programa que calcula el perimetro de un triangulo escaleno.
-
+Programa que calcula el perímetro de un triángulo escaleno.
 
 ## Procedimiento 
-1. Solicitar que se ingrese la longitud de cada uno de los lados del triangulo.
-2. Calcular el perimetro del triangulo.
+1. Solicitar que se ingrese la longitud de cada uno de los lados del triángulo.
+2. Calcular el perímetro del triángulo.
 3. Mostrar el resultado.
 
 ## Entradas y salidas
@@ -21,30 +22,30 @@ Programa que calcula el perimetro de un triangulo escaleno.
 | Lado 3       |Longitud de un lado | float | 0 | Ninguno |
 
 #### Salidas
-| Nombre  | Descripcion  | Tipo | Limite inferior | Limite superior |
+| Nombre  | Descripción  | Tipo | Límite inferior | Límite superior |
 |:-------------:|:---------------:| :-------------:|:---------:|:---------:|
-| Perimetro       |Suma de los 3 lados| float | 0 | Ninguno |
+| Perímetro       |Suma de los 3 lados| float | 0 | Ninguno |
 
 #### Mensajes de salida
-El perimetro del triangulo de lados `lado1`, `lado2` y `lado3` es: `perimetro`
+"El perímetro del triangulo de lados `lado1`, `lado2` y `lado3` es: `perimetro`"
 
-## Diseno de la solucion 
-La solucion se realizo de la siguiente forma:
+## Diseño de la solución 
+La solución se realizó de la siguiente forma:
 #### Diagrama de actividad
 ![Ejemplo de imagen](https://ejemplo.com/imagen.png)
 
 
-#### Pseudocodigo
+#### Pseudocódigo
 ```plaintext
 INICIO
     Solicitar la longitud de los 3 lados
-        Verificar longitudes validas
-    Calcular el perimetro
-    Mostrar el perimetro
+        Verificar longitudes válidas
+    Calcular el perímetro
+    Mostrar el perímetro
 FIN
 ```
 
-## Codigo fuente
+## Código fuente
 En el archivo **ejercicio06.py**
 ```python
 def calcular_perimetro(lado1, lado2, lado3):
@@ -64,5 +65,6 @@ print(f"El perimetro del triangulo escaleno con lados {lado1},{lado2}, {lado3} e
 | Entrada | Condiciones | Salida Esperada | Salida |
 |:-------------:|:---------------:| :-------------:|:---------:|
 | Lado 1 = 5, Lado 2 = 6, Lado 3 = 2 | longitudes > 0 | perimetro = 13 | perimetro = 13 |
+| Lado 1 = 0, Lado 2 = 6, Lado 3 = 5 | longitud cero | Lados de longitud inválida | Lados de longitud inválida |
 
 ![footerDGTIC](/Imagenes/footerDGTIC.png)
